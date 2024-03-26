@@ -1,0 +1,44 @@
+.videoWrap {
+  padding-top: 200px;
+  width: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.videoWrap .video {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.videoWrap .mainBtn {
+  position: relative;
+  margin-left: 80px;
+  width: 210px;
+  padding: 17px 35px;
+  border-radius: 50px;
+  background-color: #d9534f;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.videoWrap .mainBtn::after {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: "";
+  width: 20px;
+  height: 8px;
+  background: url("../images/icon/ico_nextArrow_w.png") no-repeat 50% 50%;
+  background-size: cover;
+}

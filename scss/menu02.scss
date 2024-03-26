@@ -1,0 +1,473 @@
+@charset 'utf-8';
+
+.main {
+  &_section {
+    .view {
+      margin: 0 auto;
+      width: 200px;
+      color: #fff;
+      text-align: center;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 15px 35px;
+      border: 1px solid #fff;
+      border-radius: 50px;
+      &:focus,
+      &:hover {
+        color: #000;
+        background-color: #fff;
+        transition: 0.3s ease-in-out;
+      }
+    }
+    &.song {
+      background: url('../images/bg_5.jpg') no-repeat 50% 50%;
+      background-size: cover;
+      .promotionWrap {
+        &.campaignSong {
+          padding: 125px 120px 0;
+          .songWrap {
+            display: flex;
+            justify-content: flex-start;
+            &_list {
+              display: flex;
+              justify-content: flex-start;
+              flex-direction: column;
+              margin-right: 90px;
+              &_title {
+                color: #fff;
+                font-size: 26px;
+                font-weight: 500;
+                padding-bottom: 20px;
+              }
+              .videoStyle {
+                display: block;
+                width: 530px;
+                height: 300px;
+                background-color: wheat;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.design {
+      background: url('../images/bg_6.jpg') no-repeat 50% 50%;
+      background-size: cover;
+      .promotionWrap {
+        padding: 50px 0 0 70px;
+        .designRound {
+          .designWrap {
+            display: flex;
+            justify-content: flex-start;
+            &_list {
+              display: flex;
+              flex-direction: column;
+              margin-right: 35px;
+              &:nth-last-child(1) {
+                margin-right: 0;
+              }
+              &_img {
+                padding-bottom: 30px;
+              }
+            }
+            &.dp2 {
+              color: #fff;
+              .dp2Wrap {
+                &_list {
+                  width: 100%;
+                  height: auto;
+                  &:nth-child(2) {
+                    margin: 45px auto 0;
+                    padding-left: 130px;
+                  }
+                  .down {
+                    margin-right: 10px;
+                    &_btn {
+                      margin: 0 auto;
+                      width: 200px;
+                      text-align: center;
+                      font-size: 17px;
+                      font-weight: bold;
+                      padding: 15px 35px;
+                      border: 1px solid #fff;
+                      border-radius: 50px;
+                      &:focus,
+                      &:hover {
+                        color: #000;
+                        background-color: #fff;
+                        transition: 0.3s ease-in-out;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.poster {
+      background: url('../images/bg_10.jpg') no-repeat 50% 50%;
+      background-size: cover;
+      .promotionWrap {
+        .promotionWrap {
+          .poster {
+            .posterWrap {
+              &_list {
+                &:nth-child(1) {
+                  margin-bottom: 30px;
+                }
+                &_btn {
+                  margin-left: 260px;
+                  text-align: center;
+                  padding: 15px 35px;
+                  border: 1px solid #fff;
+                  border-radius: 50px;
+                  font-size: 17px;
+                  font-weight: 700;
+                  &:focus,
+                  &:hover {
+                    background-color: #fff;
+                    color: #000;
+                    transition: 0.3s ease-in-out;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.artist {
+      background: url('../images/bg_9.jpg') no-repeat 50% 50%;
+      background-size: cover;
+      .promotionWrap {
+        .designRound {
+          .aritstPo {
+            .posterWrap {
+              &_list {
+                margin-bottom: 30px;
+                &.btnWrap {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  .btnWrap_btn {
+                    margin-right: 20px;
+                    padding: 15px 35px;
+                    display: block;
+                    border: 1px solid #fff;
+                    border-radius: 50px;
+                    font-size: 17px;
+                    font-weight: 700;
+                    &:focus,
+                    &:hover {
+                      color: #000;
+                      background-color: #fff;
+                      transition: 0.3s ease-in-out;
+                    }
+                    &:nth-last-child(1) {
+                      margin-right: 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.video {
+      background: url('../images/bg_8.jpg') no-repeat 50% 50%;
+      background-size: cover;
+    }
+    &.photos {
+      background: url('../images/bg_7.jpg') no-repeat 50% 50%;
+      background-size: cover;
+      .promotionWrap {
+        &.photo {
+          padding: 125px 120px 0;
+          .photoWrap {
+            display: flex;
+            justify-content: flex-start;
+            &_list {
+              margin-right: 35px;
+              &:nth-last-child(1) {
+                margin-right: 0;
+              }
+              .textWrap {
+                display: flex;
+                justify-content: center;
+                margin-top: 45px;
+                &_btn {
+                  display: block;
+                  margin-right: 10px;
+                  color: #fff;
+                  font-weight: 600;
+                  font-style: 17px;
+                  padding: 15px 35px;
+                  border: 1px solid #fff;
+                  border-radius: 50px;
+                  &:focus,
+                  &:hover {
+                    transition: 0.3s ease-in-out;
+                    color: #000;
+                    background-color: #fff;
+                  }
+                  &:nth-last-child(1) {
+                    margin-right: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.sub {
+  &_section {
+    &.artistView {
+      .posterView {
+        width: calc(100% - 130px);
+        margin: 0 auto;
+        .posterView_listWrap {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          column-gap: 24px;
+          &_list {
+            width: calc((100% - 72px) / 4);
+            .textWrap {
+              display: flex;
+              flex-direction: column;
+              padding: 25px 0 40px 15px;
+              &_name {
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1;
+                color: #303133;
+                transition: 0.3s;
+                &:focus,
+                &:hover {
+                  opacity: 0.75;
+                }
+                &.ps {
+                  font-size: 16px;
+                  line-height: 1;
+                  padding-bottom: 20px;
+                }
+              }
+              &_nat {
+                font-size: 13px;
+                font-weight: 600;
+                color: #999;
+                font-style: italic;
+              }
+            }
+            .bgImg {
+              position: relative;
+              background-size: cover;
+              img {
+                display: block;
+                width: 100%;
+                height: 12.93747542272906vw; /*329(2543)*/
+                object-fit: cover;
+              }
+              .viewWrap {
+                opacity: 0;
+                transition: all 0.2s;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                &:focus,
+                &:hover {
+                  opacity: 1;
+                }
+                .cBox {
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  margin: auto;
+                  width: 60px;
+                  height: 60px;
+                  &::after {
+                    content: '';
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: url('../images/icon/ico_search_w.png') no-repeat
+                      50% 50%;
+                    background-size: contain;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//media query
+@media (max-width: 1024px) {
+  .main {
+    &_section {
+      .view {
+        width: 150px;
+        font-size: 14px;
+        padding: 10px 25px;
+      }
+      &.song {
+        background: url(../images/bg_5.jpg) no-repeat 100%;
+        background-size: cover;
+        .promotionWrap {
+          .campaignSong {
+            padding: 80px 120px 0;
+            .songWrap {
+              &_list {
+                .videoStyle {
+                  width: 300px;
+                  height: 170px;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.design {
+        .promotionWrap {
+          padding: 30px 0 0 0;
+          .designRound {
+            .designWrap {
+              justify-content: center;
+              &_list {
+                &_img {
+                  width: 250px;
+                }
+              }
+              &.dp2 {
+                .dp2Wrap {
+                  &_list {
+                    .down {
+                      &_btn {
+                        width: 150px;
+                        font-size: 14px;
+                        padding: 10px 25px;
+                      }
+                    }
+                    &:nth-child(2) {
+                      padding-left: 80px;
+                    }
+                    &_img {
+                      width: 500px;
+                    }
+                  }
+                }
+              }
+              &.poster {
+                .posterWrap {
+                  &_list {
+                    .posterImg {
+                      width: 800px;
+                    }
+                    &_btn {
+                      font-size: 14px;
+                      padding: 10px 25px;
+                      margin-left: 150px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.artist {
+        .promotionWrap {
+          .designRound {
+            .aritstPo {
+              .posterWrap {
+                &_list {
+                  &.btnWrap {
+                    .btnWrap_btn {
+                      font-size: 14px;
+                      padding: 10px 25px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .main {
+    &_section {
+      &.song {
+        background: url(../images/bg_5.jpg) no-repeat 90%;
+        background-size: cover;
+        .promotionWrap {
+          .campaignSong {
+            .songWrap {
+              display: block;
+              &_list {
+                &:nth-child(1) {
+                  margin-bottom: 30px;
+                }
+                &_title {
+                  padding-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.design {
+        .promotionWrap {
+          .designRound {
+            .designWrap {
+              &_list {
+                &_img {
+                  width: 200px;
+                }
+              }
+              &.poster {
+                .posterWrap {
+                  &_list {
+                    .posterImg {
+                      width: 700px;
+                    }
+                    &_btn {
+                      font-size: 14px;
+                      padding: 10px 25px;
+                      margin-left: 120px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
